@@ -1,3 +1,11 @@
-listx = [1,2,3]
-listx.append(12)
-print(listx)
+
+OK = 'Main ok - only def'
+def U():
+    global OK
+    OK = 'U ok - only def'
+    print(OK)
+
+U()
+OK= 'ok'
+print(OK)
+
